@@ -1,5 +1,5 @@
-# hw5-simple-arraylist
-5th homework - 2nd assignment
+# tahw3-simple-arraylist
+3rd homework - 2nd assignment
 
 TODO: Complete the declared methods
 
