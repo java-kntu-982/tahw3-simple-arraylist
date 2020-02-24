@@ -40,16 +40,13 @@ public class SimpleArrayList {
         throw new UnsupportedOperationException("Delete me - reset");
     }
 
-    public int getSize() {
-        return size;
-    }
-
     public void append(String[] array) {
         //Delete This line and write your code
         throw new UnsupportedOperationException("Delete me - append");
     }
 
     //use any sorting algorithm - suggested = bubble sort or insertion sort
+    //sort by string's length
     public void sort() {
         //Delete This line and write your code
         throw new UnsupportedOperationException("Delete me - sort");
@@ -61,8 +58,15 @@ public class SimpleArrayList {
         //Delete This line and write your code
         throw new UnsupportedOperationException("Delete me - search");
     }
-
     public String[] getElements() {
         return elements;
+    }
+
+    public int getSize() {
+        return size;
+    }
+
+    public int getNextIndex() {
+        return nextIndex;
     }
 }
